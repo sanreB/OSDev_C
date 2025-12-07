@@ -5,15 +5,11 @@
 int main(){
     
     int binaryNumber = 0b101;
+    int binaryGenerator;
 
-    int binaryGenerator = rand() % 100;
+    srand(time(NULL));
+    binaryGenerator = rand() % 16;
 
-    if(binaryGenerator)
-
-
-
-
-
-
-
+    if((binaryGenerator & binaryNumber) == binaryNumber)
+      printf("%d\n", binaryGenerator);
 }
