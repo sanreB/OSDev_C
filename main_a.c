@@ -10,7 +10,8 @@ int main(){
     srand(time(NULL));
     binaryGenerator = rand() % 16;
 
-    if(binaryGenerator)
+    if((binaryGenerator & binaryNumber == binaryNumber))
+        printf("%d\n", binaryGenerator);
 
 
 
@@ -18,4 +19,5 @@ int main(){
 
 
 
+return 0;
 }
