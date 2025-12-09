@@ -10,10 +10,12 @@ int main(){
     srand(time(NULL));
     binaryGenerator = rand() % 16;
 
-    if((binaryGenerator & binaryNumber) == binaryNumber)
-        printf("%d\n", binaryGenerator);
-    else 
-        printf("Outro número aleatório");
+    if(binaryGenerator)
 
-    return 0;
+
+
+
+
+
+
 }
